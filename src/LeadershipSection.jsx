@@ -199,7 +199,9 @@ export default function LeadershipSection() {
                 className="font-display font-semibold text-3xl sm:text-4xl lg:text-[48px] xl:text-[52px] text-[#1F1F1F] leading-[1.08] tracking-tight focus:outline-none"
               >
                 People Behind <br />
-                the Platform
+                <span className="bg-gradient-to-r from-[#9a7b00] via-[#c8a200] to-[#9a7b00] bg-clip-text text-transparent">
+                  the Platform
+                </span>
               </h2>
             </div>
 
