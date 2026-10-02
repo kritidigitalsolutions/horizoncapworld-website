@@ -41,7 +41,7 @@ export default function InvestmentSection() {
       className="bg-white py-20 lg:py-24 overflow-hidden scroll-mt-24 border-t border-[#ededeb]"
       aria-labelledby="investment-heading"
     >
-      <div className="w-full px-5 sm:px-8 md:px-12 lg:px-16 xl:px-20 2xl:px-24">
+      <div className="w-full px-4 sm:px-6 md:px-8 lg:px-8 xl:px-12 2xl:px-16">
         
         {/* ── SECTION HEADER (Centered Editorial) ── */}
         <motion.div 

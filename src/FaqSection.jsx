@@ -75,7 +75,7 @@ export default function FaqSection() {
       className="bg-[#FAFAF7] py-14 sm:py-16 lg:py-20 xl:py-24 border-t border-[#EDEDEB] scroll-mt-24 overflow-hidden"
       aria-labelledby="faq-heading"
     >
-      <div className="w-full px-5 sm:px-8 md:px-12 lg:px-16 xl:px-20 2xl:px-24">
+      <div className="w-full px-4 sm:px-6 md:px-8 lg:px-8 xl:px-12 2xl:px-16">
         
         <div className="grid grid-cols-1 lg:grid-cols-[0.38fr_0.62fr] gap-10 lg:gap-14 xl:gap-20 items-start">
           

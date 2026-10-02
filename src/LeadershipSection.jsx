@@ -183,7 +183,7 @@ export default function LeadershipSection() {
       className="bg-white py-14 sm:py-16 lg:py-20 xl:py-24 border-t border-[#ededeb] scroll-mt-24 overflow-hidden"
       aria-labelledby="leadership-title"
     >
-      <div className="w-full px-5 sm:px-8 md:px-12 lg:px-16 xl:px-20 2xl:px-24">
+      <div className="w-full px-4 sm:px-6 md:px-8 lg:px-8 xl:px-12 2xl:px-16">
         
         {/* ── ASYMMETRIC EDITORIAL HEADER ── */}
         <motion.header {...headerAnim} className="mb-8 lg:mb-10">

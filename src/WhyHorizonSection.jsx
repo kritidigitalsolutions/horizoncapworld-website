@@ -103,7 +103,7 @@ export default function WhyHorizonSection() {
         <div className="absolute bottom-0 left-1/4 w-80 h-80 bg-[#FFF5D0]/30 rounded-full blur-3xl" />
       </div>
 
-      <div className="w-full px-5 sm:px-8 md:px-12 lg:px-16 xl:px-20 2xl:px-24 relative z-10">
+      <div className="w-full px-4 sm:px-6 md:px-8 lg:px-8 xl:px-12 2xl:px-16 relative z-10">
         
         {/* ── HEADER ── */}
         <div className="max-w-3xl mb-12 sm:mb-14 lg:mb-16">

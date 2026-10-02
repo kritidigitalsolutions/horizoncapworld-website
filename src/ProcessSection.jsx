@@ -83,7 +83,7 @@ export default function ProcessSection() {
       className="bg-[#fafafa] py-14 sm:py-16 md:py-20 lg:py-24 overflow-hidden scroll-mt-24 border-t border-[#ededeb]"
       aria-labelledby="process-heading"
     >
-      <div className="w-full px-5 sm:px-8 md:px-12 lg:px-16 xl:px-20 2xl:px-24">
+      <div className="w-full px-4 sm:px-6 md:px-8 lg:px-8 xl:px-12 2xl:px-16">
         
         {/* ── SECTION HEADER (Centered Editorial) ── */}
         <motion.div 
@@ -116,8 +116,8 @@ export default function ProcessSection() {
           </p>
         </motion.div>
 
-        {/* ── DESKTOP & TABLET PROCESS (Single Horizontal Row) ── */}
-        <div className="hidden md:block relative">
+        {/* ── DESKTOP & LAPTOP PROCESS (Single Horizontal Row) ── */}
+        <div className="hidden lg:block relative">
           
           {/* Subtle Horizontal Connecting Gold Line */}
           <div 
@@ -169,8 +169,8 @@ export default function ProcessSection() {
 
         </div>
 
-        {/* ── MOBILE PROCESS (Compact Vertical Flow with Thin Left Line) ── */}
-        <div className="block md:hidden relative pl-9 sm:pl-10">
+        {/* ── MOBILE & TABLET PROCESS (Compact Vertical Flow with Thin Left Line) ── */}
+        <div className="block lg:hidden relative pl-9 sm:pl-10 max-w-2xl mx-auto">
           
           {/* Vertical Connecting Line */}
           <div 

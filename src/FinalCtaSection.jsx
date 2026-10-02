@@ -124,7 +124,7 @@ export default function FinalCtaSection({ onExplore }) {
       </div>
 
       {/* ── MAIN CONTAINER ── */}
-      <div className="w-full px-5 sm:px-8 md:px-12 lg:px-16 xl:px-20 2xl:px-24 relative z-10">
+      <div className="w-full px-4 sm:px-6 md:px-8 lg:px-8 xl:px-12 2xl:px-16 relative z-10">
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-10 lg:gap-14 items-center">
           
           {/* ── LEFT COLUMN: EDITORIAL STATEMENT (7 Cols on desktop) ── */}

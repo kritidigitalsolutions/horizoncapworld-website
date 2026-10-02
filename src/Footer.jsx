@@ -24,7 +24,7 @@ export default function Footer({ onNavigate }) {
       style={{ fontFamily: "'Inter', sans-serif" }}
       aria-label="Site Footer"
     >
-      <div className="w-full px-5 sm:px-8 md:px-12 lg:px-16 xl:px-20 2xl:px-24 pt-14 sm:pt-16 pb-10">
+      <div className="w-full px-4 sm:px-6 md:px-8 lg:px-8 xl:px-12 2xl:px-16 pt-14 sm:pt-16 pb-10">
         
         {/* ── MAIN DIRECTORY GRID ── */}
         <div className="grid grid-cols-1 md:grid-cols-12 gap-8 lg:gap-14 pb-12 border-b border-[#EAE6DC]">

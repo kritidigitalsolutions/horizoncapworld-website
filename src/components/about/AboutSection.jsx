@@ -94,7 +94,7 @@ export default function AboutSection() {
       className="bg-white py-12 md:py-16 lg:py-20 overflow-hidden scroll-mt-24 border-t border-[#ededeb]"
       aria-labelledby="about-title"
     >
-      <div className="w-full px-5 sm:px-8 md:px-12 lg:px-16 xl:px-20 2xl:px-24">
+      <div className="w-full px-4 sm:px-6 md:px-8 lg:px-8 xl:px-12 2xl:px-16">
         
         {/* ── PART 1: EXISTING APPROVED SPLIT LAYOUT ── */}
 
