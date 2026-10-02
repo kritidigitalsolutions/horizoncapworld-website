@@ -122,8 +122,7 @@ export default function App() {
               <motion.div {...reveal(0.05)} className="eyebrow hero-eyebrow"><span className="eyebrow-line" />BUILDING VALUE. POWERING TOMORROW.</motion.div>
               <motion.h1 id="hero-title" {...reveal(0.15)}>Invest in the Future of <span className="gold-text">Energy</span> &amp; <span className="gold-text">Precious Metals</span></motion.h1>
               <motion.p {...reveal(0.25)} className="hero-description">Explore structured investment opportunities across renewable energy and precious metals through a platform designed around transparency, disciplined capital deployment and long-term value creation.</motion.p>
-              <motion.div {...reveal(0.35)} className="hero-actions"><button className="button button-primary hero-primary" onClick={() => navigate('investments')}>Explore Investment Opportunities<RiArrowRightUpLine aria-hidden="true" /></button><button className="discover-link" onClick={() => navigate('about')}>Discover Horizon Cap Worlds<RiArrowRightLine aria-hidden="true" /></button></motion.div>
-              <motion.div {...reveal(0.45)} className="hero-assurance"><RiShieldCheckLine aria-hidden="true" /><span>Rooted in real assets. Focused on tomorrow.</span></motion.div>
+              <motion.div {...reveal(0.35)} className="hero-assurance"><RiShieldCheckLine aria-hidden="true" /><span>Rooted in real assets. Focused on tomorrow.</span></motion.div>
             </div>
             <div className="hero-visual">
               <motion.div className="hero-photo" initial={{ opacity: 0, scale: reduceMotion ? 1 : 1.035 }} animate={{ opacity: 1, scale: 1 }} transition={{ duration: reduceMotion ? 0 : 1.6 }}><img src="/assets/energy-metals-hero.webp" alt="Solar panels and wind turbines across a green landscape, with gold bullion in the foreground" fetchPriority="high" /><div className="photo-wash" /></motion.div>
