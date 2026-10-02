@@ -40,7 +40,7 @@ export default function Footer({ onNavigate }) {
               <img 
                 src={officialLogo} 
                 alt="Horizon Cap Worlds" 
-                className="h-14 sm:h-18 md:h-[84px] lg:h-[96px] xl:h-[105px] w-auto max-w-full object-contain transition-transform duration-200 group-hover:scale-[1.02]" 
+                className="h-12 sm:h-14 lg:h-[58px] xl:h-[62px] w-auto max-w-full object-contain transition-transform duration-200 group-hover:scale-[1.02]" 
               />
             </a>
 

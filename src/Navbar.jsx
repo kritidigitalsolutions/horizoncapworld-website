@@ -69,15 +69,15 @@ export default function Navbar({
     <header 
       className={`sticky top-0 z-50 w-full transition-all duration-200 border-b border-[#141414]/[0.07] ${
         scrolled 
-          ? 'bg-white/95 backdrop-blur-md shadow-[0_2px_15px_rgba(0,0,0,0.04)] h-[90px] sm:h-[96px] lg:h-[102px]' 
-          : 'bg-white h-[98px] sm:h-[104px] lg:h-[110px]'
+          ? 'bg-white/95 backdrop-blur-md shadow-[0_2px_15px_rgba(0,0,0,0.04)] h-[78px] sm:h-[82px] lg:h-[86px]' 
+          : 'bg-white h-[84px] sm:h-[88px] lg:h-[92px]'
       }`}
       style={{ fontFamily: "'Inter', sans-serif" }}
     >
       {/* ── FULL WIDTH CONTAINER (Edge-to-edge with generous side padding) ── */}
       <div className="w-full px-5 sm:px-8 md:px-10 lg:px-14 xl:px-18 2xl:px-24 h-full flex items-center justify-between">
         
-        {/* ── LOGO (Bada & Full Width unclipped brand name & emblem) ── */}
+        {/* ── LOGO (Balanced, elegant institutional branding) ── */}
         <div className="flex items-center shrink-0">
           <a 
             href="#home" 
@@ -88,7 +88,7 @@ export default function Navbar({
             <img 
               src={officialLogo} 
               alt="Horizon Cap Worlds" 
-              className="h-12 sm:h-14 md:h-16 lg:h-[70px] xl:h-[78px] 2xl:h-[84px] w-auto max-w-full object-contain transition-transform duration-200 group-hover:scale-[1.02]" 
+              className="h-10 sm:h-11 md:h-12 lg:h-[48px] xl:h-[52px] w-auto max-w-full object-contain transition-transform duration-200 group-hover:scale-[1.02]" 
             />
           </a>
         </div>
