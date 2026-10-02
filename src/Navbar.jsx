@@ -10,6 +10,7 @@ const navItems = [
   { label: 'Investments', target: 'investments' },
   { label: 'How It Works', target: 'process' },
   { label: 'Leadership', target: 'leadership' },
+  { label: 'Why Choose Us', target: 'why-horizon' },
   { label: 'FAQ', target: 'faq' }
 ];
 
@@ -96,7 +97,7 @@ export default function Navbar({
 
           {/* ── DESKTOP NAVIGATION (Fluid spacing preventing collisions on 13" and 14" laptops) ── */}
           <nav 
-            className="hidden lg:flex items-center lg:gap-3 xl:gap-5 2xl:gap-7" 
+            className="hidden lg:flex items-center lg:gap-2.5 xl:gap-4.5 2xl:gap-6" 
             aria-label="Main navigation"
           >
             {navItems.map(({ label, target }) => {
@@ -106,7 +107,7 @@ export default function Navbar({
                   key={label}
                   type="button"
                   onClick={() => handleNavClick(target)}
-                  className={`relative lg:text-[13px] xl:text-[13.5px] 2xl:text-[14.5px] py-1.5 px-1 xl:px-1.5 transition-colors duration-150 cursor-pointer ${
+                  className={`relative lg:text-[12.5px] xl:text-[13.5px] 2xl:text-[14.5px] py-1.5 px-0.5 xl:px-1 transition-colors duration-150 cursor-pointer ${
                     isActive 
                       ? 'text-[#171717] font-semibold' 
                       : 'text-[#4B5563] font-medium hover:text-[#171717]'
